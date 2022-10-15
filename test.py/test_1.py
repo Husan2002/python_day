@@ -141,3 +141,7 @@ if (x is y) | (a is b):
     print(1)
 else:
     print(0)
+
+
+
+# я просто жесть
