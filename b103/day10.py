@@ -46,7 +46,10 @@ ili
 a,b,c = 13, 66, 32
 
 max = a if a > b and a > c else b if b > c else c
-# print(max)
+max1 = a if a < b and a < c else b if b < c else c
+
+print(max)
+print(max1)
 
 # max = a if a > b and a > c else b if b > c else c
 
