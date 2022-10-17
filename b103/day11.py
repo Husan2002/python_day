@@ -47,5 +47,5 @@ for i in my_str:
         num_list.append(int(i))
 
 
-# print(''.join(num_list))
+print(num_list)
 
