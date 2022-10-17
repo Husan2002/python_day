@@ -10,8 +10,8 @@
 a = 3
 b = 5
 
-max = a if a > b else b
-# print(max)
+# print(a if a > b else b)
+
 
 
 # ternarniy operator
@@ -86,8 +86,7 @@ x4 = lambda a, b: a * b
 # print((lambda a, b: a * b)(4, 6))
 
 
-print((lambda a, b: a * b)((float(input('enter number: '))),(float(input('enter number: ')))))
-
+# print((lambda a, b: a * b)((float(input('enter number: '))),(float(input('enter number: ')))))
 
 # lambda arguments: ispolneniye ili operatsiya
 
@@ -142,9 +141,9 @@ x6 = list(map(str.upper, my_pets))
 
 nums = [3.356734, 5.65334, 7.2312, 64.623234, 128.214]
 
-print(round(4.45112))
-print(round(4.50000))
-print(round(4.513423))
+# print(round(4.45112))
+# print(round(4.50000))
+# print(round(4.513423))
 
 # print(list(map(round,nums ,range(1, len(nums)))))
 # print(list(map(round, nums, range(1, len(nums)))))
@@ -189,3 +188,5 @@ numbers = [2, 1, 3, 4, 7, 11, 18]
 # # Пример №4 / четные числа
 # numbers = [2, 1, 3, 4, 7, 11, 18]
 # print(list(filter(lambda i: i% 2 != 0, numbers)))
+
+# maxito
