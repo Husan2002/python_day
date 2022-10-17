@@ -31,4 +31,4 @@ def scuare(a):
     s = a ** 2
     return p,s
 
-print(scuare())
+print(scuare(10))
