@@ -49,17 +49,17 @@
 """как найти максимальный елимент без встроенных функции 'max and min'
 """
 
-mac = 1
-for ma in range(1,101):
-    if ma > mac:
-        mac = ma
-print(mac)
+# mac = 1
+# for ma in range(1,101):
+#     if ma > mac:
+#         mac = ma
+# print(mac)
 
-mic = 100
-for mi in range(1,101):
-    if mi < mic:
-        mic = mi
-print(mic)
+# mic = 100
+# for mi in range(1,101):
+#     if mi < mic:
+#         mic = mi
+# print(mic)
 
 
 # maxx = 1
@@ -76,12 +76,12 @@ print(mic)
 """найти наибольший общий делитель
 """
 
-a, b = int(input('enter number ')),int(input('enter number '))
+# a, b = int(input('enter number ')),int(input('enter number '))
 
-while a != 0 and b != 0:
-    if a > b:
-        a %= b
-    else:
-        b %= a
+# while a != 0 and b != 0:
+#     if a > b:
+#         a %= b
+#     else:
+#         b %= a
 
-print(a + b)
+# print(a + b)
